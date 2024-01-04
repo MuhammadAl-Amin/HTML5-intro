@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is for the form.</title>
+    <link rel="stylesheet" href="Styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Form.html">Form</a></li>
+                <li><a href="Table.html">Table</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 style="text-align: center;">Please fill up the form.</h2>
+            <form style="text-align: center;">
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Type your name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" id="email" placeholder="Type your email.">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="number" id="id">
+                </label>
+                <fieldset>
+                    <legend>Pick one </legend>
+                    <label for="mango">Mango
+                        <input type="radio" id="mango" name="fruit">
+                    </label>
+                    <label for="jackfruit">jackfruit
+                        <input type="radio" id="jackfruit" name="fruit">
+                    </label>
+                    <label for="apple">Apple
+                        <input type="radio" id="apple" name="fruit">
+                    </label>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <small>
+                &copy;2030 
+                All rights reserve.
+            </small>
+        </p>
+    </footer>
+</body>
+</html>
